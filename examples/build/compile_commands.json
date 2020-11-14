@@ -1,0 +1,37 @@
+[
+{
+  "directory": "/home/cnc/Desktop/EIPScanner/examples/build",
+  "command": "/usr/bin/c++  -I/home/cnc/Desktop/EIPScanner/examples/src -g -o CMakeFiles/discovery_example.dir/DiscoveryManagerExample.o -c /home/cnc/Desktop/EIPScanner/examples/DiscoveryManagerExample.cpp",
+  "file": "/home/cnc/Desktop/EIPScanner/examples/DiscoveryManagerExample.cpp"
+},
+{
+  "directory": "/home/cnc/Desktop/EIPScanner/examples/build",
+  "command": "/usr/bin/c++  -I/home/cnc/Desktop/EIPScanner/examples/src -g -o CMakeFiles/parameter_object_example.dir/ParameterObjectExample.o -c /home/cnc/Desktop/EIPScanner/examples/ParameterObjectExample.cpp",
+  "file": "/home/cnc/Desktop/EIPScanner/examples/ParameterObjectExample.cpp"
+},
+{
+  "directory": "/home/cnc/Desktop/EIPScanner/examples/build",
+  "command": "/usr/bin/c++  -I/home/cnc/Desktop/EIPScanner/examples/src -g -o CMakeFiles/yaskawa_assembly_object_example.dir/vendors/yaskawa/mp3300iec/Yaskawa_AssemblyObjectExample.o -c /home/cnc/Desktop/EIPScanner/examples/vendors/yaskawa/mp3300iec/Yaskawa_AssemblyObjectExample.cpp",
+  "file": "/home/cnc/Desktop/EIPScanner/examples/vendors/yaskawa/mp3300iec/Yaskawa_AssemblyObjectExample.cpp"
+},
+{
+  "directory": "/home/cnc/Desktop/EIPScanner/examples/build",
+  "command": "/usr/bin/c++  -I/home/cnc/Desktop/EIPScanner/examples/src -g -o CMakeFiles/implicit_messaging.dir/ImplicitMessagingExample.o -c /home/cnc/Desktop/EIPScanner/examples/ImplicitMessagingExample.cpp",
+  "file": "/home/cnc/Desktop/EIPScanner/examples/ImplicitMessagingExample.cpp"
+},
+{
+  "directory": "/home/cnc/Desktop/EIPScanner/examples/build",
+  "command": "/usr/bin/c++  -I/home/cnc/Desktop/EIPScanner/examples/src -g -o CMakeFiles/identity_object_example.dir/IdentityObjectExample.o -c /home/cnc/Desktop/EIPScanner/examples/IdentityObjectExample.cpp",
+  "file": "/home/cnc/Desktop/EIPScanner/examples/IdentityObjectExample.cpp"
+},
+{
+  "directory": "/home/cnc/Desktop/EIPScanner/examples/build",
+  "command": "/usr/bin/c++  -I/home/cnc/Desktop/EIPScanner/examples/src -g -o CMakeFiles/file_object_example.dir/FileObjectExample.o -c /home/cnc/Desktop/EIPScanner/examples/FileObjectExample.cpp",
+  "file": "/home/cnc/Desktop/EIPScanner/examples/FileObjectExample.cpp"
+},
+{
+  "directory": "/home/cnc/Desktop/EIPScanner/examples/build",
+  "command": "/usr/bin/c++  -I/home/cnc/Desktop/EIPScanner/examples/src -g -o CMakeFiles/explicit_messaging.dir/ExplicitMessagingExample.o -c /home/cnc/Desktop/EIPScanner/examples/ExplicitMessagingExample.cpp",
+  "file": "/home/cnc/Desktop/EIPScanner/examples/ExplicitMessagingExample.cpp"
+}
+]

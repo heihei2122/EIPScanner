@@ -1,0 +1,109 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Project",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "discovery_example::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-discovery_example-Debug-b6dbd65d1b1f039f5755.json",
+					"name" : "discovery_example",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "explicit_messaging::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-explicit_messaging-Debug-2232244e336acec5d8c1.json",
+					"name" : "explicit_messaging",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "file_object_example::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-file_object_example-Debug-8e844c7c93de34edfe5e.json",
+					"name" : "file_object_example",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "identity_object_example::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-identity_object_example-Debug-3cfa81174fd7a70c83a8.json",
+					"name" : "identity_object_example",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "implicit_messaging::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-implicit_messaging-Debug-2c39242b24d0de5b8f99.json",
+					"name" : "implicit_messaging",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "parameter_object_example::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-parameter_object_example-Debug-efec0213c4b55ac0eb12.json",
+					"name" : "parameter_object_example",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yaskawa_assembly_object_example::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yaskawa_assembly_object_example-Debug-58a6822c0c55edfdb1aa.json",
+					"name" : "yaskawa_assembly_object_example",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/cnc/Desktop/EIPScanner/examples/build",
+		"source" : "/home/cnc/Desktop/EIPScanner/examples"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 2
+	}
+}

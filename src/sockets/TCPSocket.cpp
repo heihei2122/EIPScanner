@@ -103,6 +103,8 @@ namespace eipScanner {
 			Logger(LogLevel::TRACE) << "Send " << data.size() << " bytes from TCP socket #" << _sockedFd << ".";
 
 			int count = send(_sockedFd, data.data(), data.size(), 0);
+			int count1 = send(_sockedFd, (void*)'\r', 1, 0);
+			int count2 = send(_sockedFd, (void*)'\n', 1, 0);
 			if (count < data.size()) {
 				throw std::system_error(errno, std::generic_category());
 			}

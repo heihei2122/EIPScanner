@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/cnc/Desktop/EIPScanner/examples/DiscoveryManagerExample.cpp
+DiscoveryManager.h
+-
+utils/Logger.h
+-
+

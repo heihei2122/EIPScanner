@@ -10,12 +10,12 @@ namespace eip {
 
 	using utils::Buffer;
 
-	EncapsPacket EncapsPacketFactory::createRegisterSessionPacket() const {
+        EncapsPacket EncapsPacketFactory::createRegisterSessionPacket() const {//创建生成会话的消息
 		EncapsPacket packet;
 		packet.setCommand(EncapsCommands::REGISTER_SESSION);
-
+		//生成用于创建会话连接的报文
 		// See 2-4.4 Vol2 spec
-		cip::CipUint protocolVersion = 1;
+        cip::CipUint protocolVersion = 1;
 		cip::CipUint optionFlag = 0;
 
 		Buffer buffer(4);

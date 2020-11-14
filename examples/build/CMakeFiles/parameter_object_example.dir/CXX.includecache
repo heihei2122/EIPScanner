@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/cnc/Desktop/EIPScanner/examples/ParameterObjectExample.cpp
+ParameterObject.h
+/home/cnc/Desktop/EIPScanner/examples/ParameterObject.h
+utils/Logger.h
+/home/cnc/Desktop/EIPScanner/examples/utils/Logger.h
+utils/Buffer.h
+/home/cnc/Desktop/EIPScanner/examples/utils/Buffer.h
+

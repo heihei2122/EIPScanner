@@ -1,0 +1,65 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Project",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "EIPScanner::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-EIPScanner-Debug-b5054138ba71555349e6.json",
+					"name" : "EIPScanner",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "EIPScannerS::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-EIPScannerS-Debug-6567c32940797ce5acb2.json",
+					"name" : "EIPScannerS",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/cnc/Desktop/EIPScanner/src/build",
+		"source" : "/home/cnc/Desktop/EIPScanner/src"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 2
+	}
+}

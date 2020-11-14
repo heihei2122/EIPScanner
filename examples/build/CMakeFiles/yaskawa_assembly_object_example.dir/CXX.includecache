@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/cnc/Desktop/EIPScanner/examples/vendors/yaskawa/mp3300iec/Yaskawa_AssemblyObjectExample.cpp
+cip/Types.h
+/home/cnc/Desktop/EIPScanner/examples/vendors/yaskawa/mp3300iec/cip/Types.h
+functional
+-
+sstream
+-
+fstream
+-
+cip/connectionManager/NetworkConnectionParams.h
+-
+ConnectionManager.h
+/home/cnc/Desktop/EIPScanner/examples/vendors/yaskawa/mp3300iec/ConnectionManager.h
+DiscoveryManager.h
+-
+FileObject.h
+/home/cnc/Desktop/EIPScanner/examples/vendors/yaskawa/mp3300iec/FileObject.h
+fileObject/FileObjectState.h
+/home/cnc/Desktop/EIPScanner/examples/vendors/yaskawa/mp3300iec/fileObject/FileObjectState.h
+IdentityObject.h
+/home/cnc/Desktop/EIPScanner/examples/vendors/yaskawa/mp3300iec/IdentityObject.h
+IOConnection.h
+/home/cnc/Desktop/EIPScanner/examples/vendors/yaskawa/mp3300iec/IOConnection.h
+ParameterObject.h
+/home/cnc/Desktop/EIPScanner/examples/vendors/yaskawa/mp3300iec/ParameterObject.h
+SessionInfo.h
+/home/cnc/Desktop/EIPScanner/examples/vendors/yaskawa/mp3300iec/SessionInfo.h
+utils/Logger.h
+/home/cnc/Desktop/EIPScanner/examples/vendors/yaskawa/mp3300iec/utils/Logger.h
+utils/Buffer.h
+/home/cnc/Desktop/EIPScanner/examples/vendors/yaskawa/mp3300iec/utils/Buffer.h
+vendor/yaskawa/mp3300iec/Yaskawa_EPath.h
+/home/cnc/Desktop/EIPScanner/examples/vendors/yaskawa/mp3300iec/vendor/yaskawa/mp3300iec/Yaskawa_EPath.h
+vendor/yaskawa/mp3300iec/Yaskawa_MessageRouter.h
+/home/cnc/Desktop/EIPScanner/examples/vendors/yaskawa/mp3300iec/vendor/yaskawa/mp3300iec/Yaskawa_MessageRouter.h
+vendor/yaskawa/mp3300iec/Yaskawa_MessageRouterRequest.h
+/home/cnc/Desktop/EIPScanner/examples/vendors/yaskawa/mp3300iec/vendor/yaskawa/mp3300iec/Yaskawa_MessageRouterRequest.h
+

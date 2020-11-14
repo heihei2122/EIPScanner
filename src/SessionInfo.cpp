@@ -40,6 +40,7 @@ namespace eipScanner {
 
 	SessionInfo::~SessionInfo() {
 		EncapsPacket packet = EncapsPacketFactory().createUnRegisterSessionPacket(_sessionHandle);
+		
 		_socket.Send(packet.pack());
 		Logger(LogLevel::INFO) << "Unregistered session " << _sessionHandle;
 	}
